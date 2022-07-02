@@ -7,7 +7,7 @@ const app: Express = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Express + TypeScript Server ! Let\'s create the Sigma.');
+    res.send('Express + TypeScript Server');
 });
 
 app.listen(port, () => {
